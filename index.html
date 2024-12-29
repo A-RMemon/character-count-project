@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="flex justify-center items-center min-h-screen bg-gradient-to-r from-purple-500 to-pink-500 p-4">
+        <div class="bg-white bg-opacity-30 rounded-xl shadow-lg backdrop-blur-md w-96 p-6">
+            <h1 class="uppercase text-3xl font-semibold text-center text-white mb-6 tracking-wide">real-time character counter</h1>
+            <textarea name="" id="textarea" placeholder="please write your text here" class="w-full h-40 p-4 text-lg border-2 border-transparent rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500 bg-transparent text-white placeholder-gray-300 resize-none" maxlength="50" autofocus></textarea>
+            <p class="text-xl text-white font-medium" id="Totalcharacter"></p>
+            <p class="text-lg text-gray-200" id="Remainingcount"></p>
+
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
